@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 # To make sure we are running the model on GPU.
-# If your device doesn't have CUDA caple GPU, comment the line below.
+# If your device doesn't have CUDA capble GPU, comment the line below.
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 
 import os
